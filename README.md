@@ -14,6 +14,22 @@ Use this repository as a reading sequence, a teaching kit, or a seed for further
 
 ---
 
+## Translations
+
+Full translations live in separate folders — one language per tree, no mixed-language pages:
+
+| Language | Folder |
+|----------|--------|
+| Estonian | [`translations/Estonian/`](translations/Estonian/) |
+| Finnish | [`translations/Finnish/`](translations/Finnish/) |
+| Russian | [`translations/Russian/`](translations/Russian/) |
+| Japanese | [`translations/Japanese/`](translations/Japanese/) |
+| Chinese (Simplified) | [`translations/Chinese/`](translations/Chinese/) |
+
+See [`translations/README.md`](translations/README.md) for the full index.
+
+---
+
 ## What’s Inside
 
 - 12 themed modules, each with:
