@@ -1,5 +1,7 @@
 # Time Is a Map — Physics Proof
 
+> 📜 **In‑universe document.** This is the 2420 archive's argument, kept as part of the story. It is not a proof in the scientific sense. The checked version, including where this argument fails, is in [SCIENCE.md](SCIENCE.md).
+
 ## For the 8‑Year‑Old
 "Time doesn’t move; YOU move. The past is just down the street, and the future is up the street. They’re both there right now — you just aren’t looking at them."
 

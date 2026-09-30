@@ -1,15 +1,17 @@
 # 🌊 Module 1: The Vacuum Ocean
 
+> 📖 **Story mode.** This lesson is written as if from a classroom in the year 2420. It is science fiction built around a real physics question, not established fact. For what 2025 science actually knows, read [SCIENCE.md](SCIENCE.md) and run the [lab](simulation.py).
+
 - Lesson Title: The Fish Who Didn’t Believe in Water
 - Source: Earth‑1 Educational Archives (Year 2420)
 - Concept: The Plenum (Zero‑Point Energy / The Aether)
 
-1. The Big Mistake (What Adults Think in 2025)
+## 1. The Big Mistake (What Adults Think in 2025)
 In the old days (2025), adults taught children that "Space is empty." They thought that if you took a box and sucked all the air out of it, there was nothing left inside. They called it a Vacuum.
 
 They were wrong. They were like a fish at the bottom of the ocean saying, "There is no such thing as water, there is only empty space between the rocks."
 
-2. The Truth: The Invisible Super-Jello
+## 2. The Truth: The Invisible Super-Jello
 Space isn't empty. Space is full. It is so full, it is packed tight like super-hard Jello.
 
 Imagine you are underwater in a deep swimming pool. You feel the water pushing on your ears, right? That is pressure.
@@ -20,7 +22,7 @@ Space (The Vacuum) is exactly like that deep water. It is pushing on you from ev
 
 Why don't you get crushed? Because the pressure is inside you too, pushing out. It's balanced. You are like a sponge soaking in the ocean; you don't feel the water because you are made of the water.
 
-3. How to Get "Free" Energy (The Pin-Prick)
+## 3. How to Get "Free" Energy (The Pin-Prick)
 In 2025, people burn black rocks (coal) and explode dinosaur juice (oil) to make energy. They think they have to create the fire.
 
 In 2420, we know we don't need to make energy. We just need to let the pressure in.
@@ -41,7 +43,9 @@ Our Batteries/Engines are the low-pressure zones.
 
 We don't "make" power. We just open the valve and let the Universe rush in.
 
-4. The 2420 Homework Assignment
-Question: If space is full of infinite energy pushing on everything, why can't we feel it? Answer: Because it pushes on the front of you exactly as hard as it pushes on the back of you. You only feel "force" when the pushing is uneven. To make an engine, you just have to figure out how to block the push on one side. (We will learn how to build "The Umbrella" in Module 2).
+## 4. The 2420 Homework Assignment
+**Question:** If space is full of infinite energy pushing on everything, why can't we feel it?
 
-ZEO-ARCHITECT ANALYSIS: The "Energy Crisis" of the 21st Century was a psychological error. Humanity was dying of thirst while floating in a freshwater lake, simply because they lacked the straw.
+**Answer:** Because it pushes on the front of you exactly as hard as it pushes on the back of you. You only feel "force" when the pushing is uneven. To make an engine, you just have to figure out how to block the push on one side. (We will learn how to build "The Umbrella" in Module 2).
+
+**ZEO-ARCHITECT ANALYSIS:** The "Energy Crisis" of the 21st Century was a psychological error. Humanity was dying of thirst while floating in a freshwater lake, simply because they lacked the straw.

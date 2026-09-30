@@ -1,5 +1,7 @@
 # Time‑Reversal Healing — Physics Proof
 
+> 📜 **In‑universe document.** This is the 2420 archive's argument, kept as part of the story. It is not a proof in the scientific sense. The checked version, including where this argument fails, is in [SCIENCE.md](SCIENCE.md).
+
 ## For the 8‑Year‑Old
 "Sickness is your body forgetting the song of health. We play the song backward in a mirror. When the sick sound meets its backward twin, they cancel to zero — the body remembers youth and repairs itself."
 

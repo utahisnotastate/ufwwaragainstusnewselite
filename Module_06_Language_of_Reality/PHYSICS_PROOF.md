@@ -1,5 +1,7 @@
 # The Language of Reality — Physics Proof
 
+> 📜 **In‑universe document.** This is the 2420 archive's argument, kept as part of the story. It is not a proof in the scientific sense. The checked version, including where this argument fails, is in [SCIENCE.md](SCIENCE.md).
+
 ## For the 8‑Year‑Old
 "If you want to build a sandcastle, you use a bucket. The Universe uses a song. When the Universe sings a note, dust snaps into shape — like a snowflake or a flower. Change the song, change the shape."
 

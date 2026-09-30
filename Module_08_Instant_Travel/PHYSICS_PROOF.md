@@ -1,5 +1,7 @@
 # Instant Travel — Physics Proof
 
+> 📜 **In‑universe document.** This is the 2420 archive's argument, kept as part of the story. It is not a proof in the scientific sense. The checked version, including where this argument fails, is in [SCIENCE.md](SCIENCE.md).
+
 ## For the 8‑Year‑Old
 "To go to Mars you don’t need a rocket; you tune your body’s radio to the Mars channel. SNAP — you’re there. Distance is an illusion."
 

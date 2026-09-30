@@ -1,5 +1,7 @@
 # Translations
 
+> **Note:** These translations cover the original story lessons and in-universe proofs. The English curriculum has since added a `SCIENCE.md` reality-check page and a tested `simulation.py` lab to every module, plus "story mode" banners on each lesson. Those are not translated yet.
+
 Each language has its own self-contained copy of the curriculum. Pages are **not** mixed — open the folder for the language you want and read only that version.
 
 | Language | Folder | Start here |
