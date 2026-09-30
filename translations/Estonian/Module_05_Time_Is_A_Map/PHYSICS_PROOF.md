@@ -1,5 +1,7 @@
 # Aeg on kaart — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Aeg ei liigu; SINA liigud. Minevik on lihtsalt allpool tänavat ja tulevik üleval tänavas. Mõlemad on praegu olemas — sa lihtsalt ei vaata neid.“
 

@@ -1,5 +1,7 @@
 # Reaalsuse keel — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Kui tahad ehitada liivalossi, kasutad ämbrit. Universum kasutab laulu. Kui Universum laulab noodi, kargab tolm kujusse — nagu lumehelves või lill. Muuda laulu, muudad kuju.“
 

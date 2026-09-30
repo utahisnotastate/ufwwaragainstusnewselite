@@ -1,5 +1,7 @@
 # Ajatagasipööramise ravi — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Haigus on see, et su keha unustab tervise laulu. Me mängime laulu peeglis tagurpidi. Kui haige heli kohtub oma tagurpidise kaksikuga, kustutavad nad teineteise nulli — keha mäletab noorust ja parandab end ise.“
 

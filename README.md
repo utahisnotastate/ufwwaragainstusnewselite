@@ -53,7 +53,7 @@ Modules build on each other, so start at Module 1. Health note: nothing here is 
 
 ## Translations
 
-Estonian, Finnish, Russian, Japanese and Chinese (Simplified) versions of the **stories** live in [`translations/`](translations/README.md). They were made before the science pages and labs were added, so they don't include those yet.
+Estonian, Finnish, Russian, Japanese and Chinese (Simplified) versions live in [`translations/`](translations/README.md). Each language has its own folder with the story lessons, `SCIENCE.md` reality checks, and in-universe proofs. Lab code (`simulation.py`) stays at the English module folders and is linked from the translations.
 
 ---
 

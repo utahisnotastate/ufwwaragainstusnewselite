@@ -1,20 +1,26 @@
 # ZEO‑Architecti analüüs — 1. moodul: nullpunktienergia
 
-Eesmärk
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi disainianalüüs, mida hoitakse loo osana. See ei ole inseneridokument ja seadmeid, mida see kirjeldab, ei ole näidatud töötavat. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
+## Eesmärk
+
 - Talletada „vaakumookeani“ mudeli taga olev disainiloogika, eeldused ja järeldused.
 - Pakkuda kokkuvõtlikku, kõrgetasemelist sünteesi, mis täiendab õppetundi ja füüsikatõestust.
 
-Kokkuvõte
+## Kokkuvõte
+
 - Eeldus: Vaakum on kõrgsurve‑pleenum; energiatihedus Plancki skaalal on äärmuslik.
 - Disainijäreldus: Mootorid ei pea energiat „tegema“; nad haakuvad vaakumvälja olemasolevate rõhuerinevustega.
 - Inseneriheuristika: Loo vaakumi vastastikmõjus kontrollitud asümmeetria (varjestus/klapistamine), et saada kasutatavat tööd.
 
-Põhimõisted
+## Põhimõisted
+
 - Pleenum (nullpunktiväli): Tihe, kõikjalolev taustenergia olek.
 - Mitmekordne ühenduvus (superruum): Topoloogia, mis võimaldab energiavoolule „otseteid“.
 - Damplifier: Kõrge Q‑teguriga, madala müraga resonantsstruktuur, mis külvab/püüab vaakumiresonantsi.
 
-Võimalused ja riskid
+## Võimalused ja riskid
+
 - Võimalused:
   - Ülikõrge energiatiheduse ammutamine minimaalse kütusemassiga.
   - Uued muundurite klassid, mis põhinevad resonantsi topoloogial (kristallid ja metamaterjalid).
@@ -22,20 +28,24 @@ Võimalused ja riskid
   - Lokaalse välja struktureerimine võib esile kutsuda mitteintuitiivse energiaarvestuse (näiline 3‑D mittesäilivus).
   - Resonantskaskaadide stabiilsus ja ohjeldamine tuleb inseneriliselt lahendada.
 
-Disainimärkmed (tulevaste prototüüpide jaoks)
+## Disainimärkmed (tulevaste prototüüpide jaoks)
+
 - Materjalid: Väikese kaoga kristallid, ülijuhtivad rajad ja vibratsioonist isoleeritud õõnsused.
 - Juhtimine: Faasilukustatud tagasiside, et hoida resonantsi lävel ilma kontrolli alt väljumiseta.
 - Ohutus: Passiivsed summutusrajad ja Faraday‑laadne varjestus ülevoolurežiimide jaoks.
 
-Sõnastik
+## Sõnastik
+
 - Kviton: Vaakumvoo hüpoteetiline koostisosa, mida kasutatakse modelleerimisel heuristiliselt.
 - Resonantsaken: Sageduse/geomeetria piirkond, kus haakumine järsult tõuseb.
 
-Viited (kontekstuaalsed)
+## Viited (kontekstuaalsed)
+
 - Ajalooline: Nullpunktienergia kirjandus; vaakumfluktuatsioonide mudelid.
 - Analoogiad: Hüdraulika ja osmootne rõhk kui makroskoopilised metafoorid pleenumiga haakumisele.
 
-TEHA
+## TEHA
+
 - Vormistada väikese signaali haakumise mõõtmisprotokoll.
 - Võrrelda kandidaatresonaatorite Q‑tegureid.
 - Dokumenteerida tõrkekindlad mehhanismid resonantsi summutamiseks.

@@ -1,8 +1,8 @@
 # Translations
 
-> **Note:** These translations cover the original story lessons and in-universe proofs. The English curriculum has since added a `SCIENCE.md` reality-check page and a tested `simulation.py` lab to every module, plus "story mode" banners on each lesson. Those are not translated yet.
-
 Each language has its own self-contained copy of the curriculum. Pages are **not** mixed — open the folder for the language you want and read only that version.
+
+Every language folder now matches the English three-layer layout: story lesson (`readme.md`), reality check (`SCIENCE.md`), and in-universe proof (`PHYSICS_PROOF.md`). Lab code (`simulation.py`) stays at the English module folders in the repository root; translated pages link to those files.
 
 | Language | Folder | Start here |
 |----------|--------|------------|
@@ -18,17 +18,27 @@ Each language has its own self-contained copy of the curriculum. Pages are **not
 ```
 translations/<Language>/
 ├── README.md
+├── ABOUT.md
+├── CONTRIBUTING.md
 ├── Module_01_Zero_Point_Energy/
-│   ├── readme.MD
+│   ├── readme.md
 │   ├── PHYSICS_PROOF.md
-│   └── zeoarchitechtanalysis.md
+│   ├── SCIENCE.md
+│   └── ZEO_ARCHITECT_ANALYSIS.md
 ├── Module_02_Gravity_Is_Pushing/
 │   ├── readme.md
-│   └── PHYSICS_PROOF.md
+│   ├── PHYSICS_PROOF.md
+│   └── SCIENCE.md
 ├── … (Modules 03–12, same pattern)
 └── Module_12_The_Psychotronic_Internet/
     ├── readme.md
-    └── PHYSICS_PROOF.md
+    ├── PHYSICS_PROOF.md
+    └── SCIENCE.md
 ```
 
-Module folder names match the English originals so paths stay predictable across languages.
+Module folder names match the English originals so paths stay predictable across languages. Run labs from the repository root, for example:
+
+```bash
+python Module_01_Zero_Point_Energy/simulation.py
+python -m pytest
+```

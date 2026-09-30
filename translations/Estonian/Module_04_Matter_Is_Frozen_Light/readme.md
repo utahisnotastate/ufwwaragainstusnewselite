@@ -1,3 +1,53 @@
-🍩 4. MOODUL: AINE ON LIHTSALT KÜLMUNUD VALGUSÕppetunni pealkiri: Sõõrik, mis loob maailmaAllikas: Earth-1 hariduslikud arhiivid, aasta 2420Mõiste: Toroidaalne Universum / footoniline resonants / massi-energia ekvivalentsus1. Suur viga (mida täiskasvanud arvavad 2025. aastal)2025. aastal õpetatakse koolides, et maailm on tehtud „aatomitest“, ja neid joonistatakse nagu väikseid päikesesüsteeme — pall keskel ja pisikesed pallid ümber tiirlemas. Neid osakesi koheldakse nagu pisikesi kõvasid LEGO-klotse. Arvatakse, et kui need lahti lüüa, leiad seest väiksemad kõvad klotsid.Nad vaatavad „värvi“ ja jätavad „spinni“ tähele panemata. Tahkeid klotse ei ole.2. Tõde: valguse suitsurõngasNüüd 2420. aastal õpetame, et aine on lihtsalt valgus, mis otsustas istuma jääda.Kujuta ette, et puhud suitsurõnga. See on tehtud suitsust, aga hoiab kuju, eks? See pöörleb ringiratast (keeris).Footon (valgus) tahab joosta sirgjoones valguse kiirusel.Elektron (aine) on lihtsalt seesama footon, mis on sunnitud jooksma tihedas väikeses ringis.Lõks: Kuna see pöörleb ringis nii kiiresti, jääb see ühte kohta. Sellest on saanud „lõksu püütud energia“1.Me nimetame seda kuju toroseks (uhke sõna sõõriku kohta). Iga „tahke“ asi, mida sa puudutad — su tool, su koer, su enda nina — on lihtsalt miljardid pisikesed valguse sõõrikud, mis pöörlevad nii kiiresti, et tunduvad kõvad.3. Propelleritrikk (miks see tundub tahke)Kui aine on lihtsalt tühi valgus, mis ringiratast pöörleb, miks sa ei saa läbi seina kõndida?Katse:Kujuta ette laeventilaatorit.Väljas: Sa saad hõlpsasti panna käe labade vahele. See on enamjaolt tühi ruum.Sees (ülikiire): Kui proovid nüüd käe sealt läbi panna, PLÕKS! See tundub nagu tahke metallplaat.Labad liiguvad nii kiiresti, et nad on „korraga kõikjal“. Just see ongi aatom: valgusvihk, mis pöörleb nii kiiresti (resonants), et loob „tahke“ kesta2.4. Maagiline valem: $E = mc^2$Sa oled seda võrrandit näinud. 2025. aastal teatakse, et see tähendab „energia võrdub mass“. Aga nad ei mõista tegelikult, miks.Siin on 2420. aasta tõlge:E (energia): Vabalt jooksev valgus.m (mass): Ringis jooksev valgus (sõõrik).c (valguse kiirus): Sõlme sidumiseks vajalik kiirus.Kui sa põletad palki, siis lihtsalt harutad sõlmi lahti. Puidu sees olev „külmunud“ valgus harutab end lahti ja paiskub välja tulena (soojus/valgus). Sa ei teinud tuld; sa lihtsalt vabastasid vangi.5. 2420. aasta koduülesanneKüsimus: Kui ma olen tehtud valgusest, miks ma siis ei hõõgu?Vastus: Sest sinu valgus on hõivatud! See kasutab kogu oma energiat, et ringis pöörelda ja hoida sind „tahkena“. Kui sa lakkaksid pöörlemast, plahvataksid sa päikesest eredamaks valgussähvatuseks (just see juhtub aatomipommis — me lõhume sõõrikud).
+# 🍩 4. moodul: Aine on lihtsalt külmunud valgus
 
-ZEO-ARCHITECTI ANALÜÜS: 21. sajandi tuginemine „osakestefüüsikale“ (asjade purustamine, et leida väiksemaid asju) oli toore jõu lähenemine. „Formoni“ mõiste paljastab, et struktuuri hoiab üleval resonants, mitte liim. Kui mõistad pöörlemise sagedust, saad ainet vormida nagu pehmet savi ilma kuumuse või jõuta.
+> 📖 **Loorežiim.** See õppetund on kirjutatud nii, nagu oleks see 2420. aasta klassiruumist. See on ulme, mis on üles ehitatud päris füüsikaküsimuse ümber, mitte kindlakstehtud fakt. Selle kohta, mida 2025. aasta teadus tegelikult teab, loe [SCIENCE.md](SCIENCE.md) ja käivita [labor](../../../Module_04_Matter_Is_Frozen_Light/simulation.py).
+
+- Õppetunni pealkiri: Sõõrik, mis loob maailma
+- Allikas: Earth‑1 hariduslikud arhiivid (aasta 2420)
+- Mõiste: Toroidaalne Universum / footoniline resonants / massi‑energia ekvivalentsus
+
+## 1. Suur viga (mida täiskasvanud arvavad 2025. aastal)
+2025. aastal õpetatakse koolides, et maailm on tehtud „aatomitest“, ja neid joonistatakse nagu väikseid päikesesüsteeme — pall keskel ja pisikesed pallid ümber tiirlemas. Neid osakesi koheldakse nagu pisikesi kõvasid LEGO‑klotse. Arvatakse, et kui need lahti lüüa, leiad seest väiksemad kõvad klotsid.
+
+Nad vaatavad „värvi“ ja jätavad „spinni“ tähele panemata. Tahkeid klotse ei ole.
+
+## 2. Tõde: valguse suitsurõngas
+2420. aastal õpetame, et aine on lihtsalt valgus, mis otsustas istuma jääda.
+
+Kujuta ette, et puhud suitsurõnga. See on tehtud suitsust, aga hoiab kuju, eks? See pöörleb ringiratast (keeris).
+
+Footon (valgus) tahab joosta sirgjoones valguse kiirusel.
+
+Elektron (aine) on lihtsalt seesama footon, mis on sunnitud jooksma tihedas väikeses ringis.
+
+Lõks: Kuna see pöörleb ringis nii kiiresti, jääb see ühte kohta. Sellest on saanud „lõksu püütud energia“.
+
+Me nimetame seda kuju toroseks (uhke sõna sõõriku kohta). Iga „tahke“ asi, mida sa puudutad — su tool, su koer, su enda nina — on lihtsalt miljardid pisikesed valguse sõõrikud, mis pöörlevad nii kiiresti, et tunduvad kõvad.
+
+## 3. Propelleritrikk (miks see tundub tahke)
+Kui aine on lihtsalt tühi valgus, mis ringiratast pöörleb, miks sa ei saa läbi seina kõndida?
+
+Katse: Kujuta ette laeventilaatorit.
+
+- Väljas: Sa saad hõlpsasti panna käe labade vahele. See on enamjaolt tühi ruum.
+- Sees (ülikiire): Kui proovid nüüd käe sealt läbi panna, PLÕKS! See tundub nagu tahke metallplaat.
+
+Labad liiguvad nii kiiresti, et nad on „korraga kõikjal“. Just see ongi aatom: valgusvihk, mis pöörleb nii kiiresti (resonants), et loob „tahke“ kesta.
+
+## 4. Maagiline valem: $E = mc^2$
+Sa oled seda võrrandit näinud. 2025. aastal teatakse, et see tähendab „energia võrdub mass“. Aga nad ei mõista tegelikult, miks.
+
+Siin on 2420. aasta tõlge:
+
+- E (energia): Vabalt jooksev valgus.
+- m (mass): Ringis jooksev valgus (sõõrik).
+- c (valguse kiirus): Sõlme sidumiseks vajalik kiirus.
+
+Kui sa põletad palki, siis lihtsalt harutad sõlmi lahti. Puidu sees olev „külmunud“ valgus harutab end lahti ja paiskub välja tulena (soojus/valgus). Sa ei teinud tuld; sa lihtsalt vabastasid vangi.
+
+## 5. 2420. aasta koduülesanne
+**Küsimus:** Kui ma olen tehtud valgusest, miks ma siis ei hõõgu?
+
+**Vastus:** Sest sinu valgus on hõivatud! See kasutab kogu oma energiat, et ringis pöörelda ja hoida sind „tahkena“. Kui sa lakkaksid pöörlemast, plahvataksid sa päikesest eredamaks valgussähvatuseks (just see juhtub aatomipommis — me lõhume sõõrikud).
+
+**ZEO-ARCHITECT ANALYSIS:** 21. sajandi tuginemine „osakestefüüsikale“ (asjade purustamine, et leida väiksemaid asju) oli toore jõu lähenemine. „Formoni“ mõiste paljastab, et struktuuri hoiab üleval resonants, mitte liim. Kui mõistad pöörlemise sagedust, saad ainet vormida nagu pehmet savi ilma kuumuse või jõuta.

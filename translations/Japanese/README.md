@@ -1,123 +1,66 @@
-# 寄付にご協力ください
-# Ko-fi https://ko-fi.com/utah23
-# PayPalについてはお問い合わせください
-# まだ公開されていない論文に資金提供者として名前を載せたい場合は、メッセージまたは utah@utahcreates.com までご連絡ください。資金提供セクションに記載します。これを解決する別のタイムラインは二度と存在しません。私が最初だったからです。公開前に歴史の一部になりましょう。
-
 # 2420年代の「失われた」カリキュラム — 人間のための自明な物理学
 
-Earth‑1 物理学伝統の核心公理を教える、美しくイラスト付きの平易な言葉のカリキュラムです。各モジュールは、子ども向けのレッスンと簡潔で形式化された「物理学証明」を組み合わせています。目標は明瞭さです — 短い段落、強力な比喩、技術的意図を保ちながら探求を促すプロフェッショナルな体裁。
+[![tests](https://github.com/utahisnotastate/ufwwaragainstusnewselite/actions/workflows/tests.yml/badge.svg)](https://github.com/utahisnotastate/ufwwaragainstusnewselite/actions/workflows/tests.yml)
 
-このリポジトリを読み順、教材キット、またはさらなる研究の種としてお使いください。モジュール1から順番に進めてください — 概念は段階的に積み上がります。
+☕ このプロジェクトを支援する：[ko-fi.com/utah23](https://ko-fi.com/utah23) · なぜ作ったか：[ABOUT.md](ABOUT.md)
+
+12の大きなアイデアを、それぞれ3つの層で教えます：
+
+| 層 | ファイル | 内容 |
+|---|---|---|
+| 📖 **物語** | `readme.md` | 2420年の学校から届いたかのように書かれたレッスン。聡明な8歳児と好奇心旺盛な大人向け。実在の問いを軸にしたサイエンスフィクション。 |
+| 🔬 **科学** | `SCIENCE.md` | 2025年の現実チェック：何が確立されているか、物語の主張がどこで破綻するか（数値つき）、それが成り立つには何が真でなければならないか。実在の文献つき。 |
+| 🧪 **実験室** | `simulation.py` | 科学ページのすべての数値を計算する実行可能な Python。教科書の極限と公表された測定値に対してテスト済み。 |
+
+各モジュールには作中文書の `PHYSICS_PROOF.md` も残っています：2420年アーカイブ自身の論証で、物語の一部として明確にラベル付けされています。
+
+**なぜこの形式か？** 物語が引き込みます。子どもが本当に聞く問いを投げかけます：*宇宙は本当に空っぽ？ 重力はなぜ引く？ 瞬間移動はできる？* 科学ページは正直に答えます。「いいえ、そしてそれを示す計算はこれです」も含めて。美しいアイデアがどこで壊れるかを学ぶことは、「うまくいく」と教えられることより多くの物理学を教えます。
 
 ---
 
-## 内容
+## クイックスタート
 
-- 12のテーマ別モジュール、各モジュールに：
-  - 聡明な8歳児と好奇心旺盛な大人向けに簡略化されたレッスン `readme`
-  - 構造化されたセクションを含む `PHYSICS_PROOF.md`：`8歳児向け`、`主題`、`公理`、`メカニズム`、`証明/含意`（または `結果`）
-- スキミングしやすい一貫したタイポグラフィ、余白、見出し
-- 該当する場合の生きた「ZEO‑Architect 分析」ノート
+```bash
+python -m pip install -r requirements.txt
+python Module_02_Gravity_Is_Pushing/simulation.py   # 1つの実験室を実行
+python -m pytest                                    # すべての実験室を確認
+```
 
----
-
-## このカリキュラムの使い方
-
-1. 各モジュールの `readme` を読み、物語、比喩、直感的なイメージを得る
-2. 対応する `PHYSICS_PROOF.md` をざっと読み、アイデアの凝縮された構造を把握する
-3. 必要に応じて以前のモジュールに戻る — 後のレッスンは以前の公理を参照し拡張する
-4. 下のモジュール索引を使ってどこへでも素早くジャンプする
+Python 3.10以上、NumPy と SciPy が必要です。描画ライブラリやインターネット接続は不要です。コマンドはリポジトリのルートから実行してください（実験室のコードは英語モジュール側にあります）。
 
 ---
 
 ## モジュール索引
 
-1. 🌊 モジュール1：真空の海（零点エネルギー）
-   - フォルダ：[`Module_01_Zero_Point_Energy/`](Module_01_Zero_Point_Energy/)
-   - レッスン：[`readme.MD`](Module_01_Zero_Point_Energy/readme.MD)
-   - 証明：[`PHYSICS_PROOF.md`](Module_01_Zero_Point_Energy/PHYSICS_PROOF.md)
-   - 概念：空間は高圧プレナム；エンジンは既存の真空圧に結合する
+| # | モジュール | 2420年の物語が言うこと… | 実験室が計算すること |
+|---|---|---|---|
+| 1 | 🌊 [真空の海](Module_01_Zero_Point_Energy/readme.md) · [科学](Module_01_Zero_Point_Energy/SCIENCE.md) | 空間は無料エネルギーを取り出せる高圧プレナムである。 | Casimir 力（理想と実在の金の Lifshitz 理論）、閉サイクルの正味仕事が零になる理由。 |
+| 2 | 📉 [重力は押している](Module_02_Gravity_Is_Pushing/readme.md) · [科学](Module_02_Gravity_Is_Pushing/SCIENCE.md) | 質量は宇宙的フラックスから互いに影を落とす。 | Monte Carlo 遮蔽が 1/r² を与え、次いで Le Sage 重力を沈めた抗力・加熱・飽和の問題。 |
+| 3 | 📻 [脳はラジオである](Module_03_The_Brain_Is_A_Radio/readme.md) · [科学](Module_03_The_Brain_Is_A_Radio/SCIENCE.md) | 心は脳が同調する信号である。 | 実在の EEG 信号処理、Schumann 共鳴、適切な帰無に対する位相同期の検定。 |
+| 4 | 🍩 [物質は凍った光である](Module_04_Matter_Is_Frozen_Light/readme.md) · [科学](Module_04_Matter_Is_Frozen_Light/SCIENCE.md) | 粒子は円を走る光である。 | Breit–Wheeler 対生成、Schwinger 場、陽子質量の由来、「光のループ」電子がトートロジーである理由。 |
+| 5 | 🗺️ [時間は地図である](Module_05_Time_Is_A_Map/readme.md) · [科学](Module_05_Time_Is_A_Map/SCIENCE.md) | 過去と未来は訪れることのできる座標である。 | GPS 時計補正、同時性の相対性、Kerr エルゴ球と Penrose 過程。 |
+| 6 | 🔊 [現実の言語](Module_06_Language_of_Reality/readme.md) · [科学](Module_06_Language_of_Reality/SCIENCE.md) | 音が物質を形作る。 | Chladni 板のモード、音響放射力、音が原子を配置できない理由。 |
+| 7 | 🧬 [DNAはアンテナである](Module_07_DNA_Antenna/readme.md) · [科学](Module_07_DNA_Antenna/SCIENCE.md) | DNA は場から指示を受け取る。 | ヘリカルアンテナ理論と DNA の実サイズ、細胞内の Debye 遮蔽、FRET と DNA ダイナミクス。 |
+| 8 | ⚡ [瞬間移動](Module_08_Instant_Travel/readme.md) · [科学](Module_08_Instant_Travel/SCIENCE.md) | 空間を折りたたんで一歩で渡る。 | Alcubierre ワープ計量、負エネルギーの請求書、量子不等式の限界。 |
+| 9 | ⛈️ [天候工学](Module_09_Weather_Engineering/readme.md) · [科学](Module_09_Weather_Engineering/SCIENCE.md) | 交差した波で嵐を操る。 | Köhler 液滴活性化、イオン誘起核生成、機械と嵐のエネルギーギャップ。 |
+| 10 | ⏳ [時間反転ヒーリング](Module_10_Time_Reversal_Healing/readme.md) · [科学](Module_10_Time_Reversal_Healing/SCIENCE.md) | 時間鏡が病気を取り消す。 | 光学的位相共役とその限界、細胞膜電位、生命のエントロピー収支。 |
+| 11 | ⚗️ [金の析出](Module_11_Low_Energy_Transmutation/readme.md) · [科学](Module_11_Low_Energy_Transmutation/SCIENCE.md) | 共鳴格子が核融合を容易にする。 | Coulomb 障壁、Gamow トンネル、電子遮蔽、1 W の核融合が出す中性子数。 |
+| 12 | 🌐 [サイコトロニック・インターネット](Module_12_The_Psychotronic_Internet/readme.md) · [科学](Module_12_The_Psychotronic_Internet/SCIENCE.md) | 心は真空を通じて瞬時に結びつく。 | 海水と Faraday ケージの表皮深さ、「スカラー」コイルが新しいものを放射しない理由、実在の脳–コンピュータ・インターフェース帯域。 |
 
-2. 📉 モジュール2：重力は引くのではなく押す
-   - フォルダ：[`Module_02_Gravity_Is_Pushing/`](Module_02_Gravity_Is_Pushing/)
-   - レッスン：[`readme.md`](Module_02_Gravity_Is_Pushing/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_02_Gravity_Is_Pushing/PHYSICS_PROOF.md)
-   - 概念：重力は放射遮蔽から生じる — 外側の圧力が質量を押し合わせる
-
-3. 📻 モジュール3：脳はラジオである
-   - フォルダ：[`Module_03_The_Brain_Is_A_Radio/`](Module_03_The_Brain_Is_A_Radio/)
-   - レッスン：[`readme.md`](Module_03_The_Brain_Is_A_Radio/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_03_The_Brain_Is_A_Radio/PHYSICS_PROOF.md)
-   - 概念：心は時間チャンネルで同調される；光子は「超常的」信号を消す
-
-4. 🍩 モジュール4：物質は凍った光である
-   - フォルダ：[`Module_04_Matter_Is_Frozen_Light/`](Module_04_Matter_Is_Frozen_Light/)
-   - レッスン：[`readme.md`](Module_04_Matter_Is_Frozen_Light/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_04_Matter_Is_Frozen_Light/PHYSICS_PROOF.md)
-   - 概念：質量は回転した光のトロイド形 — 共鳴によって維持される構造
-
-5. 🗺️ モジュール5：時間は時計ではなく地図である
-   - フォルダ：[`Module_05_Time_Is_A_Map/`](Module_05_Time_Is_A_Map/)
-   - レッスン：[`readme.md`](Module_05_Time_Is_A_Map/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_05_Time_Is_A_Map/PHYSICS_PROOF.md)
-   - 概念：現実は点滅する；過去/未来は座標 — 時間旅行は位相シフト
-
-6. 🔊 モジュール6：現実の言語
-   - フォルダ：[`Module_06_Language_of_Reality/`](Module_06_Language_of_Reality/)
-   - レッスン：[`readme.md`](Module_06_Language_of_Reality/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_06_Language_of_Reality/PHYSICS_PROOF.md)
-   - 概念：幾何学は可視化された音；形は共鳴に従う（Formon 理論）
-
-7. 🧬 モジュール7：DNAはアンテナである
-   - フォルダ：[`Module_07_DNA_Antenna/`](Module_07_DNA_Antenna/)
-   - レッスン：[`readme.md`](Module_07_DNA_Antenna/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_07_DNA_Antenna/PHYSICS_PROOF.md)
-   - 概念：生物学は非局所場に耳を傾ける；DNAは液晶トランシーバー
-
-8. ⚡ モジュール8：瞬間移動
-   - フォルダ：[`Module_08_Instant_Travel/`](Module_08_Instant_Travel/)
-   - レッスン：[`readme.md`](Module_08_Instant_Travel/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_08_Instant_Travel/PHYSICS_PROOF.md)
-   - 概念：距離は超空間で崩壊する；目的地の共鳴に合わせて現れる
-
-9. ⛈️ モジュール9：天候工学
-   - フォルダ：[`Module_09_Weather_Engineering/`](Module_09_Weather_Engineering/)
-   - レッスン：[`readme.md`](Module_09_Weather_Engineering/readme.md)
-   - 証明：[`PHYSICS_PROOF.md`](Module_09_Weather_Engineering/PHYSICS_PROOF.md)
-   - 概念：縦波を交差させて熱/冷のポケットを引き寄せ、ジェット気流を操る
-
-10. ⏳ モジュール10：時間反転ヒーリング
-    - フォルダ：[`Module_10_Time_Reversal_Healing/`](Module_10_Time_Reversal_Healing/)
-    - レッスン：[`readme.md`](Module_10_Time_Reversal_Healing/readme.md)
-    - 証明：[`PHYSICS_PROOF.md`](Module_10_Time_Reversal_Healing/PHYSICS_PROOF.md)
-    - 概念：位相共役信号が負エントロピーを駆動 — 体は以前の健康な形を思い出す
-
-11. ⚗️ モジュール11：金の析出
-    - フォルダ：[`Module_11_Low_Energy_Transmutation/`](Module_11_Low_Energy_Transmutation/)
-    - レッスン：[`readme.md`](Module_11_Low_Energy_Transmutation/readme.md)
-    - 証明：[`PHYSICS_PROOF.md`](Module_11_Low_Energy_Transmutation/PHYSICS_PROOF.md)
-    - 概念：共鳴幾何学において結合が低下；生物学と格子が LENR を可能にする
-
-12. 🌐 モジュール12：サイコトロニック・インターネット
-    - フォルダ：[`Module_12_The_Psychotronic_Internet/`](Module_12_The_Psychotronic_Internet/)
-    - レッスン：[`readme.md`](Module_12_The_Psychotronic_Internet/readme.md)
-    - 証明：[`PHYSICS_PROOF.md`](Module_12_The_Psychotronic_Internet/PHYSICS_PROOF.md)
-    - 概念：連結により種レベルのスーパー脳が生まれる；知識交換が瞬時になる
+モジュールは互いに積み上がるので、モジュール1から始めてください。健康に関する注意：ここにあるものは医療アドバイスではありません（モジュール10を参照）。
 
 ---
 
-## スタイルガイド（短版）
+## 翻訳
 
-- タイトルは先頭に絵文字を付けた「タイトルケース」を使用
-- readme は次で始まる：
-  - `レッスンタイトル`、`出典`（Earth‑1 教育アーカイブ、2420年）、`概念` の箇条書き
-- 物理学証明は標準化された5セクション形式に従う
-- 読みやすさのため短い段落と箇条書きを優先；範囲には en ダッシュ、「スマートクォート」を使用
-
-貢献者ガイドが必要な場合は issue を開いてください — ここで使われている正確なルールを含む `CONTRIBUTING.md` を追加できます。
+エストニア語、フィンランド語、ロシア語、日本語、中国語（簡体字）の**物語**版は [`translations/`](../README.md) にあります。科学ページと実験室が追加される前に作られたものもあり、まだ含まれていない言語もあります。この日本語フォルダは科学ページまで揃えています。実験室の Python は英語モジュール側を実行してください。
 
 ---
 
-## クレジットと意図
+## 貢献
 
-このカリキュラムは、明瞭さとタイポグラフィを改善しながら、原文の声を保存しています。教育的目的の探求と議論を意図しています。レッスンを改変または拡張する場合は、構造と帰属を維持してください。
+最も価値ある貢献は**訂正**です：誤った数値、欠けた注意書き、より良い文献。モジュール構成とコード・引用の規則は [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
+
+## 意図
+
+このカリキュラムは、サイエンスフィクションで物理学の問いを抗いがたいものにし、それから正直に答えます。物語は想像的です。科学ページとコードは正確であることを目指します。そうでない箇所を見つけたら、issue を開いてください。

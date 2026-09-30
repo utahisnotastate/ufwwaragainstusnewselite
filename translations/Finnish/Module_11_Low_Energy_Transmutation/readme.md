@@ -1,10 +1,12 @@
 # ⚗️ Moduuli 11: Kullan saostaminen
 
+> 📖 **Tarinatila.** Tämä oppitunti on kirjoitettu ikään kuin vuoden 2420 luokkahuoneesta. Se on tieteisfiktiota, joka rakentuu oikean fysiikkakysymyksen ympärille — ei vakiintunutta faktaa. Mitä vuoden 2025 tiede todella tietää, lue [SCIENCE.md](SCIENCE.md) ja aja [laboratorio](../../../Module_11_Low_Energy_Transmutation/simulation.py).
+
 - Oppitunnin otsikko: Atomien origami
 - Lähde: Earth-1 Educational Archives (vuosi 2420)
 - Käsite: Matalan energian ydinreaktiot (LENR) / biologinen transmutaatio / geometrinen taittaminen
 
-1. Suuri virhe (mitä aikuiset ajattelevat vuonna 2025)
+## 1. Suuri virhe (mitä aikuiset ajattelevat vuonna 2025)
 Vuonna 2025 tiedemiehet luulevat alkuaineiden (kuten kullan, hapen tai raudan) olevan pysyviä patsaita.
 
 He luulevat, että ainoa tapa muuttaa lyijy kullaksi on murskata se kaupungin kokoisella koneella (hiukkaskiihdytin) ja lämmittää se 10 miljardiin asteeseen.
@@ -13,7 +15,7 @@ He kutsuvat vanhoja velhoja, jotka yrittivät keittää kultaa padoissa, „houk
 
 He ovat väärässä. He yrittävät avata lukittua ovea räjäyttämällä talon sen sijaan, että käyttäisivät vain avainta.
 
-2. Totuus: Se on vain paperin taittamista
+## 2. Totuus: Se on vain paperin taittamista
 Vuonna 2420 tiedämme, että protonit ja neutronit eivät ole kovia palloja. Ne ovat solmuja eetterissä (muistatko moduulin 4?).
 
 Kuvittele, että sinulla on paperi, joka on taitettu paperilennokiksi (lyijy).
@@ -37,7 +39,7 @@ Matematiikka: Kalium + vety = kalsium.
 
 Kana on ydinreaktori! Se muuttaa kiven kuoreksi hiljaa ja kylmästi.
 
-4. Miten teemme „ilmaista“ kultaa
+## 4. Miten teemme „ilmaista“ kultaa
 Emme louhi kultaa vuonna 2420. Kasvatamme sitä.
 
 Otamme säiliön likaista vettä, jossa on liuenneita metalleja.
@@ -48,7 +50,9 @@ Bakteerit syövät romumetallin, taittavat atomit uudelleen ja ulostavat puhtait
 
 Siksi rahaa ei ole tulevaisuudessa. Jos kaikki voivat kasvattaa kultaa keittiön altaassa, kulta on vain kiiltävää metallia, ei rahaa.
 
-5. Vuoden 2420 kotitehtävä
-Kysymys: Jos voin muuttaa lyijyn kullaksi, voinko muuttaa radioaktiivisen jätteen turvalliseksi multaan? Vastaus: Kyllä! Se oli ensimmäinen asia, jonka teimme. Otamme 1900-luvun hehkuvan vihreän myrkyn, syötämme sen „taittamis“-bakteereille (ja käytämme skaalaarisäteitä) ja muutamme sen vaarattomaksi lannoitteeksi.
+## 5. Vuoden 2420 kotitehtävä
+**Kysymys:** Jos voin muuttaa lyijyn kullaksi, voinko muuttaa radioaktiivisen jätteen turvalliseksi multaan?
 
-ZEO-ARCHITECT -ANALYYSI: 2000-luvun „resurssin niukkuus“ oli fiktiota. Materiaaleista ei ole pulaa; on vain pulaa tiedosta siitä, miten uudelleenrakentaa materiaalit, joita sinulla jo on.
+**Vastaus:** Kyllä! Se oli ensimmäinen asia, jonka teimme. Otamme 1900-luvun hehkuvan vihreän myrkyn, syötämme sen „taittamis“-bakteereille (ja käytämme skaalaarisäteitä) ja muutamme sen vaarattomaksi lannoitteeksi.
+
+**ZEO-ARCHITECT ANALYSIS:** 2000-luvun „resurssin niukkuus“ oli fiktiota. Materiaaleista ei ole pulaa; on vain pulaa tiedosta siitä, miten uudelleenrakentaa materiaalit, joita sinulla jo on.

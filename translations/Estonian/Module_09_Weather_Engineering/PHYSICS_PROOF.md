@@ -1,5 +1,7 @@
 # Ilmatehnoloogia — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Me ei aja torme taga; me joonistame neid. Ristates kaks nähtamatut kiirt taevas, saame teha „kuuma koha“, et pilvi tõmmata, või „külma seina“, et neid peatada. See on nagu kassi juhtimine laserosutiga — ainult et kass on orkaan.“
 

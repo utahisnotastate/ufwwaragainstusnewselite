@@ -1,5 +1,7 @@
 # Gravitatsioon lükkab — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Sa ei kuku alla; sind lükatakse sisse. Maa toimib nagu vihmavari, blokeerides su alt tuleva ruumirõhu vihma. Ülevalt tulev vihm surub sind alla.“
 

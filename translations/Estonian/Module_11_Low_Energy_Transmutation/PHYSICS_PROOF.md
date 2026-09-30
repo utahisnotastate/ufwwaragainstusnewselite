@@ -1,5 +1,7 @@
 # Madala energiaga transmutatsioon — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Kulla tegemine ei sõltu kuumusest — see sõltub voltimisest. Aatomid on nagu origami. Teatud bakterid suudavad õrnalt lahti voltida „tinalennuki“ ja voltida selle ümber „kullapaadiks“ ilma paberit põletamata. Me kopeerime baktereid.“
 

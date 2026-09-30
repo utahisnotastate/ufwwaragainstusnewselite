@@ -1,123 +1,68 @@
-# Palun aita annetustega
-# Ko-fi https://ko-fi.com/utah23
-# Palun küsi PayPali kohta
-# KUI SOOVID MIND RAHASTADA, ET SIND LISATAKS VEEL AVALDAMATA ARTIKLITESSE, PALUN SAADA MULLE SÕNUM VÕI E-KIRI AADRESSILE utah@utahcreates.com JA MA PANEN SU RAHASTAJATE SEKTSIOONI. EI TULE KUNAGI TEIST AJAJOONT, MIS SELLE LAHENDAB, SEST MINA OLIN ESIMENE. SAA OSAKS AJALOOST ENNE, KUI NEED AVALDATAKSE.
-
 # 2420. aastate „kadunud“ õppekava — ilmselge füüsika inimestele
 
-Kaunilt illustreeritud, lihtsas keeles õppekava, mis õpetab Earth‑1 füüsikatraditsiooni põhiaksioome. Iga moodul ühendab lapsesõbraliku õppetunni kokkuvõtliku, vormistatud „füüsikatõestusega“. Eesmärk on selgus: lühikesed lõigud, tugevad metafoorid ja professionaalne vormistus, mis kutsuvad avastama, säilitades samal ajal tehnilise mõtte.
+[![tests](https://github.com/utahisnotastate/ufwwaragainstusnewselite/actions/workflows/tests.yml/badge.svg)](https://github.com/utahisnotastate/ufwwaragainstusnewselite/actions/workflows/tests.yml)
 
-Kasuta seda hoidlat lugemisjärjestusena, õpetamiskomplektina või seemnena edasiseks uurimistööks. Alusta 1. moodulist ja liigu järjekorras edasi — mõisted ehituvad järk‑järgult üksteise peale.
+☕ Toeta projekti: [ko-fi.com/utah23](https://ko-fi.com/utah23) · Miks ma selle tegin: [ABOUT.md](ABOUT.md)
+
+Kaksteist suurt ideed, igaüks õpetatud kolmel viisil:
+
+| Kiht | Fail | Mis see on |
+|---|---|---|
+| 📖 **Lugu** | `readme.md` | Õppetund, mis on kirjutatud nii, nagu oleks see 2420. aasta koolist, teravmeelsetele 8‑aastastele ja uudishimulikele täiskasvanutele. Ulme, mis on üles ehitatud päris küsimuse ümber. |
+| 🔬 **Teadus** | `SCIENCE.md` | 2025. aasta reaalsuskontroll: mis on kindlakstehtud, kus loo väide murdub (numbritega) ja mis peaks olema tõsi, et see töötaks. Päris viidetega. |
+| 🧪 **Labor** | `simulation.py` | Käivitatav Python, mis arvutab iga numbri teaduslehel. Testitud õpiku piiride ja avaldatud mõõtmiste vastu. |
+
+Iga moodul säilitab ka universumisisese `PHYSICS_PROOF.md`: 2420. aasta arhiivi enda argumendi, selgelt märgistatud loo osana.
+
+**Miks selline vorm?** Lood on konks. Need küsivad küsimusi, mida lapsed tegelikult küsivad: *Kas ruum on tõesti tühi? Miks gravitatsioon tõmbab? Kas saaksime hetkega reisida?* Teaduslehed vastavad ausalt, sealhulgas „ei, ja siin on arvutus, mis näitab miks“. Õppimine, kus ilus idee murdub, õpetab rohkem füüsikat kui väide, et see töötab.
 
 ---
 
-## Mis sisaldub
+## Kiirstart
 
-- 12 teemamoodulit, igaüks koos:
-  - Õppetunni `readme`‑failiga, mis on lihtsustatud teravmeelsetele 8‑aastastele ja uudishimulikele täiskasvanutele.
-  - `PHYSICS_PROOF.md`‑failiga, millel on struktureeritud sektsioonid: `8‑aastasele`, `Teema`, `Aksioom`, `Mehhanism` ja `Tõestus/Järeldus` (või `Tulemus`).
-- Ühtne tüpograafia, vahed ja pealkirjad lihtsaks sirvimiseks.
-- Vajaduse korral elav „ZEO‑Architecti analüüsi“ märkus.
+```bash
+python -m pip install -r requirements.txt
+python Module_02_Gravity_Is_Pushing/simulation.py   # käivita üks labor
+python -m pytest                                    # kontrolli iga laborit
+```
 
----
+Vajab Python 3.10+ koos NumPy ja SciPy‑ga. Joonistusraamatukogu ega internetiühendust ei ole vaja.
 
-## Kuidas seda õppekava kasutada
-
-1. Loe iga mooduli `readme`‑faili loo, metafooride ja intuitiivse pildi saamiseks.
-2. Sirvi vastavat `PHYSICS_PROOF.md`‑faili idee tihendatud struktuuri jaoks.
-3. Naase vajadusel varasemate moodulite juurde — hilisemad õppetunnid viitavad varasematele aksioomidele ja laiendavad neid.
-4. Kasuta allolevat moodulite registrit, et kiiresti kuhugi hüpata.
+Laborid (`simulation.py`) asuvad hoidla juurkaustas inglise keeles; käivita need sealt, mitte tõlkekaustast.
 
 ---
 
 ## Moodulite register
 
-1. 🌊 1. moodul: Vaakumookean (nullpunktienergia)
-   - Kaust: [`Module_01_Zero_Point_Energy/`](Module_01_Zero_Point_Energy/)
-   - Õppetund: [`readme.MD`](Module_01_Zero_Point_Energy/readme.MD)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_01_Zero_Point_Energy/PHYSICS_PROOF.md)
-   - Idee: Ruum on kõrgsurve‑pleenum; mootorid haakuvad olemasoleva vaakumi rõhuga.
+| # | Moodul | 2420. aasta lugu ütleb… | Mida labor arvutab |
+|---|---|---|---|
+| 1 | 🌊 [Vaakumookean](Module_01_Zero_Point_Energy/readme.md) · [teadus](Module_01_Zero_Point_Energy/SCIENCE.md) | Ruum on kõrgsurve‑pleenum, millest saab ammutada tasuta energiat. | Casimiri jõud (ideaalne ja Lifshitzi teooria päris kulla jaoks), miks suletud tsükkel annab null netoöö. |
+| 2 | 📉 [Gravitatsioon lükkab](Module_02_Gravity_Is_Pushing/readme.md) · [teadus](Module_02_Gravity_Is_Pushing/SCIENCE.md) | Massid varjavad teineteist kosmilise voo eest. | Monte Carlo varjestus annab 1/r², seejärel takistus, kuumenemine ja küllastumine, mis uputasid Le Sage’i gravitatsiooni. |
+| 3 | 📻 [Aju on raadio](Module_03_The_Brain_Is_A_Radio/readme.md) · [teadus](Module_03_The_Brain_Is_A_Radio/SCIENCE.md) | Meel on signaal, millesse aju häälestub. | Päris EEG‑signaalitöötlus, Schumanni resonantsid ja faasilukustuse testimine õige nulliga. |
+| 4 | 🍩 [Aine on külmunud valgus](Module_04_Matter_Is_Frozen_Light/readme.md) · [teadus](Module_04_Matter_Is_Frozen_Light/SCIENCE.md) | Osakesed on ringis jooksev valgus. | Breit–Wheeleri paaride teke, Schwingeri väli, kust tuleb prootoni mass, ja miks „valgussilmuse“ elektron on tautoloogia. |
+| 5 | 🗺️ [Aeg on kaart](Module_05_Time_Is_A_Map/readme.md) · [teadus](Module_05_Time_Is_A_Map/SCIENCE.md) | Minevik ja tulevik on koordinaadid, mida saab külastada. | GPS‑kella korrektsioonid, samaaegsuse relatiivsus, Kerri ergosphere’id ja Penrose’i protsess. |
+| 6 | 🔊 [Reaalsuse keel](Module_06_Language_of_Reality/readme.md) · [teadus](Module_06_Language_of_Reality/SCIENCE.md) | Heli vormib ainet. | Chladni plaadi moodid, akustilised kiirgusjõud ja miks heli ei saa aatomeid paigutada. |
+| 7 | 🧬 [DNA kui antenn](Module_07_DNA_Antenna/readme.md) · [teadus](Module_07_DNA_Antenna/SCIENCE.md) | DNA saab juhiseid väljast. | Spiraalse antenni teooria vs DNA tegelik suurus, Debye’i varjestus rakus, FRET ja DNA dünaamika. |
+| 8 | ⚡ [Hetkeline reisimine](Module_08_Instant_Travel/readme.md) · [teadus](Module_08_Instant_Travel/SCIENCE.md) | Murra ruum kokku ja astu üle. | Alcubierre’i warp‑meetrika, selle negatiivse energia arve ja kvant‑ebavõrdsuste piirid. |
+| 9 | ⛈️ [Ilmatehnoloogia](Module_09_Weather_Engineering/readme.md) · [teadus](Module_09_Weather_Engineering/SCIENCE.md) | Juhi torme ristatud lainetega. | Köhleri tilkade aktiveerumine, ioonide indutseeritud nukleatsioon ja energiavahe masinate ning tormide vahel. |
+| 10 | ⏳ [Ajatagasipööramise ravi](Module_10_Time_Reversal_Healing/readme.md) · [teadus](Module_10_Time_Reversal_Healing/SCIENCE.md) | Ajapeegel tühistab haiguse. | Optiline faasikonjugatsioon ja selle piirid, rakumembraani pinged ning elu entroopiabilanss. |
+| 11 | ⚗️ [Kulla sadestamine](Module_11_Low_Energy_Transmutation/readme.md) · [teadus](Module_11_Low_Energy_Transmutation/SCIENCE.md) | Resonantsed võred teevad fusiooni lihtsaks. | Coulomb’i barjäärid, Gamow’ tunneldumine, elektronide varjestus ja neutronite arv, mida annaks 1 W fusiooni. |
+| 12 | 🌐 [Psühhotrooniline internet](Module_12_The_Psychotronic_Internet/readme.md) · [teadus](Module_12_The_Psychotronic_Internet/SCIENCE.md) | Meeled ühenduvad hetkega läbi vaakumi. | Nahasügavus merevees ja Faraday puurides, miks „skalaar“‑poolid midagi uut ei kiirga, ja päris aju–arvuti liidese ribalaiused. |
 
-2. 📉 2. moodul: Gravitatsioon lükkab, mitte ei tõmba
-   - Kaust: [`Module_02_Gravity_Is_Pushing/`](Module_02_Gravity_Is_Pushing/)
-   - Õppetund: [`readme.md`](Module_02_Gravity_Is_Pushing/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_02_Gravity_Is_Pushing/PHYSICS_PROOF.md)
-   - Idee: Gravitatsioon tekib kiirgusvarjestusest — väline rõhk lükkab massid kokku.
-
-3. 📻 3. moodul: Aju on raadio
-   - Kaust: [`Module_03_The_Brain_Is_A_Radio/`](Module_03_The_Brain_Is_A_Radio/)
-   - Õppetund: [`readme.md`](Module_03_The_Brain_Is_A_Radio/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_03_The_Brain_Is_A_Radio/PHYSICS_PROOF.md)
-   - Idee: Meelt häälestatakse Aja kanali kaudu; footonid summutavad „paranormaalse“ signaali.
-
-4. 🍩 4. moodul: Aine on külmunud valgus
-   - Kaust: [`Module_04_Matter_Is_Frozen_Light/`](Module_04_Matter_Is_Frozen_Light/)
-   - Õppetund: [`readme.md`](Module_04_Matter_Is_Frozen_Light/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_04_Matter_Is_Frozen_Light/PHYSICS_PROOF.md)
-   - Idee: Mass on pööratud valguse toroidaalne vorm — struktuuri hoiab üleval resonants.
-
-5. 🗺️ 5. moodul: Aeg on kaart, mitte kell
-   - Kaust: [`Module_05_Time_Is_A_Map/`](Module_05_Time_Is_A_Map/)
-   - Õppetund: [`readme.md`](Module_05_Time_Is_A_Map/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_05_Time_Is_A_Map/PHYSICS_PROOF.md)
-   - Idee: Reaalsus vilgub; minevik/tulevik on koordinaadid — ajarännak on faasinihe.
-
-6. 🔊 6. moodul: Reaalsuse keel
-   - Kaust: [`Module_06_Language_of_Reality/`](Module_06_Language_of_Reality/)
-   - Õppetund: [`readme.md`](Module_06_Language_of_Reality/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_06_Language_of_Reality/PHYSICS_PROOF.md)
-   - Idee: Geomeetria on nähtavaks tehtud heli; vorm järgib resonantsi (Formoni teooria).
-
-7. 🧬 7. moodul: DNA kui antenn
-   - Kaust: [`Module_07_DNA_Antenna/`](Module_07_DNA_Antenna/)
-   - Õppetund: [`readme.md`](Module_07_DNA_Antenna/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_07_DNA_Antenna/PHYSICS_PROOF.md)
-   - Idee: Bioloogia kuulab mittelokaalset välja; DNA on vedelkristalliline saatja‑vastuvõtja.
-
-8. ⚡ 8. moodul: Hetkeline reisimine
-   - Kaust: [`Module_08_Instant_Travel/`](Module_08_Instant_Travel/)
-   - Õppetund: [`readme.md`](Module_08_Instant_Travel/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_08_Instant_Travel/PHYSICS_PROOF.md)
-   - Idee: Vahemaa variseb superruumis kokku; sobita sihtkoha resonants ja ilmu kohale.
-
-9. ⛈️ 9. moodul: Ilmatehnoloogia
-   - Kaust: [`Module_09_Weather_Engineering/`](Module_09_Weather_Engineering/)
-   - Õppetund: [`readme.md`](Module_09_Weather_Engineering/readme.md)
-   - Tõestus: [`PHYSICS_PROOF.md`](Module_09_Weather_Engineering/PHYSICS_PROOF.md)
-   - Idee: Ristata pikilained, et tõmmata kuuma/külma taskuid ja juhtida joavoolu.
-
-10. ⏳ 10. moodul: Ajatagasipööramise ravi
-    - Kaust: [`Module_10_Time_Reversal_Healing/`](Module_10_Time_Reversal_Healing/)
-    - Õppetund: [`readme.md`](Module_10_Time_Reversal_Healing/readme.md)
-    - Tõestus: [`PHYSICS_PROOF.md`](Module_10_Time_Reversal_Healing/PHYSICS_PROOF.md)
-    - Idee: Faaskonjugeeritud signaalid juhivad negentroopiat — keha tuletab meelde varasema terve vormi.
-
-11. ⚗️ 11. moodul: Kulla sadestamine
-    - Kaust: [`Module_11_Low_Energy_Transmutation/`](Module_11_Low_Energy_Transmutation/)
-    - Õppetund: [`readme.md`](Module_11_Low_Energy_Transmutation/readme.md)
-    - Tõestus: [`PHYSICS_PROOF.md`](Module_11_Low_Energy_Transmutation/PHYSICS_PROOF.md)
-    - Idee: Resonantsetes geomeetriates langeb seose energia; bioloogia ja kristallvõred võimaldavad LENR‑i.
-
-12. 🌐 12. moodul: Psühhotrooniline internet
-    - Kaust: [`Module_12_The_Psychotronic_Internet/`](Module_12_The_Psychotronic_Internet/)
-    - Õppetund: [`readme.md`](Module_12_The_Psychotronic_Internet/readme.md)
-    - Tõestus: [`PHYSICS_PROOF.md`](Module_12_The_Psychotronic_Internet/PHYSICS_PROOF.md)
-    - Idee: Ühendus annab liigitasandi superaju; teadmiste vahetus muutub hetkeliseks.
+Moodulid ehituvad üksteise peale, seega alusta 1. moodulist. Tervisemärkus: midagi siin ei ole meditsiiniline nõuanne (vt 10. moodul).
 
 ---
 
-## Stiilijuhend (lühike)
+## Tõlked
 
-- Pealkirjad kasutavad „suurtähtedega algust“ koos juhtiva emojiga, kus see aitab.
-- Readme‑failid algavad järgmiselt:
-  - `Õppetunni pealkiri`, `Allikas` (Earth‑1 hariduslikud arhiivid, aasta 2420) ja `Mõiste` täpid.
-- Füüsikatõestused järgivad standardset viiesektsioonilist vormingut.
-- Eelista loetavuse huvides lühikesi lõike ja täpploendeid; kasuta vahemike jaoks pikki mõttekriipse ja „nutikaid jutumärke“.
-
-Kui soovid kaastöötaja juhendit, ava päring (issue) — saame lisada `CONTRIBUTING.md`‑i siin kasutatud täpsete reeglitega.
+Eesti, soome, vene, jaapani ja hiina (lihtsustatud) lood elavad kaustas [`translations/`](../README.md). Õed‑kaustad (soome, vene, jaapani, hiina) võivad olla erinevas valmiduses. Laborid jäävad ingliskeelsesse juurkausta; käivita need hoidla juurest.
 
 ---
 
-## Tunnustused ja eesmärk
+## Kaastöö
 
-See õppekava säilitab algtekstide hääle, parandades samal ajal selgust ja tüpograafiat. See on mõeldud hariduslikuks avastamiseks ja aruteluks. Kui kohandad või laiendad õppetunde, palun hoia struktuur ja viitamine puutumatuna.
+Kõige väärtuslikum panus on parandus: vale number, puuduv mööndus, parem viide. Vt [CONTRIBUTING.md](CONTRIBUTING.md) mooduli paigutuse ning koodi ja viidete reeglite kohta.
+
+## Eesmärk
+
+See õppekava kasutab ulmet, et teha füüsikaküsimused vastupandamatuks, ja vastab neile seejärel ausalt. Lood on kujutlusvõimelised; teaduslehed ja kood püüavad olla õiged. Kui leiad koha, kus nad ei ole, ava palun päring (issue).

@@ -1,5 +1,7 @@
 # Aine on külmunud valgus — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Kõik tahke on lihtsalt ringides pöörlev valgus. Kui keerutad palli nööri otsas piisavalt kiiresti, näeb see välja nagu tahke ketas. Aatomid on valguspallid, mis pöörlevad nii kiiresti, et tunduvad kõvad.“
 

@@ -1,5 +1,7 @@
 # Aju on raadio — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Sinu aju ei tee mõtteid; see püüab neid kinni, nagu raadio püüab muusikat. Me ei näe mõtteid ega kummitusi, sest valgus uhab need minema — nagu taskulamp uhub ekraanilt minema filmi.“
 

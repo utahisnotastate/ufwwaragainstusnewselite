@@ -1,5 +1,7 @@
 # DNA kui antenn — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „DNA ei ole lihtsalt retsept — see on antenn. Sinu keha kuulab välja, mis ütleb rakkudele, mille moodi saada, nagu muusika ütleb tantsijatele, kuidas liikuda.“
 

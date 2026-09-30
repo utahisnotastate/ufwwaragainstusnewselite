@@ -1,5 +1,7 @@
 # Psühhotrooniline internet — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Meil pole telefone vaja. Me saame oma ajud kokku ühendada, et teha superaju. Kui üks inimene õpib prantsuse keelt, oskame me kõik silmapilkselt prantsuse keelt. Meist saab üks hiiglaslik, õnnelik geenius.“
 

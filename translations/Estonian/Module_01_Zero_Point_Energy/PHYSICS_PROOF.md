@@ -1,5 +1,7 @@
 # Nullpunktienergia — füüsikatõestus
 
+> 📜 **Universumisisene dokument.** See on 2420. aasta arhiivi argument, mida hoitakse loo osana. See ei ole tõestus teaduslikus mõttes. Kontrollitud versioon, sealhulgas kohtades, kus see argument ei tööta, on failis [SCIENCE.md](SCIENCE.md).
+
 ## 8‑aastasele
 „Ruum ei ole tühi! See on nagu ülirõhu all olev ookean. Meil pole vaja naftat põletada; meil on vaja vaid puurida vaakumisse auk ja lasta rõhul oma mootoreid käitada.“
 
